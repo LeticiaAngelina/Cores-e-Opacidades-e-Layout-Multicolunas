@@ -1,0 +1,36 @@
+/* ======================================= CSS ==================================================  */
+body{
+	background: linear-gradient(-45deg,#B260A0,gray, #F5DA85);
+}
+
+.cores{
+	padding:15px;
+	border: 1px blue solid;
+	background-color:786AA6;
+	color:F2F08F;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid lightblue;
+	column-width: 100px;
+}
+
+h2 {
+    column-span: all;
+	background-color:1A70B8;
+	color:F2F08F;
+	text-align:center;
+	border-radius:15px;
+}
+
+.blocoso{
+	width:500px;
+	background-color:#03CFFF;
+	color:white;
+	border: 1px black solid;
+	position:relative;
+	margin:0 auto;
+	margin-top:100px;
+	opacity:0.5;
+}
